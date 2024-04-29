@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="styles.css"> 
+   
+    <!-- linking Google Poppins font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2? family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <!-- awesome font -->
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="home.php"><img src="uploads/1gh.png" alt="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <!-- closing icon for small screen device-start -->
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <!-- list if nav -->
+                <ul>
+                    <li><a href="home.php">HOME</a></li>
+                    <li><a href="aboutus.php">ABOUT</a></li>
+                    <li><a href="services.php">SERVICES</a></li>
+                    <li><a href="contact.php">CONTACT </a></li>
+                    <li><a href="notice.php">NOTICES</a></li>
+
+                    <!-- adding btn for login field of the page -->
+                    <li> <a href="../signup.php" class="hero-btn">LOGIN</a> </li>
+                </ul>
+            </div>
+            <!-- menu icon for small screen device -->
+
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <!-- content for the centre of page -->
+        <div class="text-box">
+            <h1>Certification Request System</h1>
+            <p>We are available to assist you with the certification procedure for <br> degree completion. </p>
+            <a href="services.php" class="hero-btn">visit us to know more</a>
+        </div>
+
+    </section>
+
+    <!-- services section start -->
+    <section class="services">
+        <h1>Services we provides</h1>
+        <p> We provide the different servies to ease the students work flow to get the certificate from anywhere.</p>
+        <div class="row">
+            <div class="service-col">
+                <h3>First Certificate Request</h3>
+                <p>If you're applying your document for the first time you can proced from here.</p>
+                <a href="./servicesform.php" class="hero-btn1">LOGIN</a>
+
+            </div>
+            <div class="service-col">
+                <h3>Edit Certificate Request</h3>
+                <p>If you have to make any changes in your existing document you can proceed form here.</p>
+                <a href="/servicesform.php" class="hero-btn1">Services Comming Soon</a>
+
+            </div>
+            <div class="service-col">
+                <h3>Duplicate Certificate Request</h3>
+                <p> If you have to apply the Duplicate document in case of any loss or problem with your orginal one you
+                    can proceed form here.</p>
+                <a href="" class="hero-btn1">Services Comming Soon</a>
+            </div>
+        </div>
+    </section>
+    <!-- Services Section End -->
+
+    <!-- ---- Notice---- -->
+
+    <section class="notices">
+        <div class="notices-col">
+            <h1> New Notices</h1>
+            <p> You'll get the new updates from here. Please, stay tone for the upcoming notices from us.</p>
+
+        </div>
+    </section>
+
+    <!-- ---------- Testimonials------------- -->
+    <section class="testimonial">
+        <h1>What Our Students Says</h1>
+        <p> What the users said about us after using our services for their work!</p>
+
+        <div class="row">
+            <div class="testimonial-col">
+                <img src="images/user2.jpg">
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit veniam non laboriosam, dicta harum
+                        voluptatibus temporibus delectus quibusdam. Pariatur dolor officia quod dolore incidunt
+                        delectus, commodi illum error mollitia rem!</p>
+                    <h3>Sam</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+            </div>
+
+            <div class="testimonial-col">
+                <img src="images/user1.jpg">
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit veniam non laboriosam, dicta harum
+                        voluptatibus temporibus delectus quibusdam. Pariatur dolor officia quod dolore incidunt
+                        delectus, commodi illum error mollitia rem!</p>
+                    <h3>Nancy</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+            </div>
+        </div>
+    </section> 
+     <!-- end of testimonails section -->
+
+
+    <!-- ---------- Call to action------- -->
+    <section class="cta">
+        <h1>Visit us to procedure your Documentation work to get certificate of your degree completion anywhere from the
+            world.</h1>
+        <a href="contact.php" class="hero-btn"> Contact Us</a>
+    </section>
+
+
+    <!-- -----------Footer----- -->
+    <section class="footer">
+        <h1> About Us</h1>
+        <p> We aim to help the students to get their degeee completionn certificate in a efficient manner to ease the
+            work flow of documentation activities.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+
+        </div>
+        <p1> Made with Love <i class="fa fa-heart-o"></i> By Kareena Rumba</p1>
+        <br>
+        <p2>@CopyRight All Reserved 2023</p2>
+
+    </section>
+
+
+
+
+
+
+    <!-- Javascript for Toggle Menu -->
+    <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>
